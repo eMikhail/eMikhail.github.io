@@ -1,0 +1,20 @@
+// Minimum supported width (variables used in reset styles)
+$minWidth: 320;
+
+// Maximum supported width
+$maxWidth: 2560;
+
+// No retreat
+$containerPadding: 0;
+
+// Width first breakpoint response
+$containerWidth: $maxWidth + $containerPadding;
+
+// Breakpoints
+$pc: $containerWidth; // PCs, laptops, some tablets in horizontal position
+$mobile: 768px; // Phones and Tablets
+
+// Default font (variables used in reset styles)
+$fontfamily: "Montserrat";
+$fontSize: 14;
+$mainColor: #fff;

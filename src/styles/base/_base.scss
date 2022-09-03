@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+body {
+    background-color: #000;
+}
+
+// Main container
+.container {
+    max-width: $maxWidth;
+}
+
+.wrapper {
+    overflow: hidden; // Content is clipped if necessary to fit the padding box.
+    min-width: 100%;
+}
