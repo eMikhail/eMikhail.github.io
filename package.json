@@ -1,0 +1,23 @@
+{
+  "name": "eMikhail",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "eMikhail",
+  "private": true,
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eMikhail/eMikhail.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eMikhail/eMikhail.github.io/issues"
+  },
+  "homepage": "https://emikhail.github.io",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
