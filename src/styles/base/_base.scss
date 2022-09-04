@@ -1,4 +1,4 @@
-@use '../abstracts/variables' as *;
+@use '../abstracts' as *;
 
 body {
     background-color: #000;
@@ -7,9 +7,12 @@ body {
 // Main container
 .container {
     max-width: $maxWidth;
+    margin: 0px auto;
 }
 
 .wrapper {
     overflow: hidden; // Content is clipped if necessary to fit the padding box.
-    min-width: 100%;
+    min-width: $minWidth;
+    @include flexbox();
+    @include flex-direction(column);
 }

@@ -9,8 +9,8 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 const srcPath = path.resolve(__dirname, './src');
 const srcFontsPath = path.resolve(srcPath, 'assets/fonts');
-const srcFaviconsPath = path.resolve(srcPath, 'assets/img/favicons');
-const srcIconsPath = path.resolve(srcPath, 'assets/img/icons');
+const srcFaviconsPath = path.resolve(srcPath, 'assets/favicons');
+const srcIconsPath = path.resolve(srcPath, 'assets/icons');
 const srcImagesPath = path.resolve(srcPath, 'assets/img/images');
 const srcStylesPath = path.resolve(srcPath, 'styles');
 
@@ -33,7 +33,7 @@ module.exports = {
     entry: [path.resolve(srcPath, 'index.html'), path.resolve(srcStylesPath, 'main.scss')],
     output: {
             path: destPath,
-            publicPath: 'https://emikhail.github.io/',
+            publicPath: 'https://emikhail.github.io/', //'/'
         },
     module: {
         rules: [
@@ -88,6 +88,11 @@ module.exports = {
         new FriendlyErrorsWebpackPlugin(), // it provides user-friendly errors from webpack
         new HtmlWebpackPlugin({
             template: path.resolve(srcPath, 'index.html'),
+            filename: 'index.html',
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(srcPath, '404.html'),
+            filename: '404.html',
         }),
         new MiniCssExtractPlugin({
             // it extracts css-code from js into splitted file
