@@ -82,3 +82,43 @@
         }
     }
 }
+
+@media (max-width: $mobile) {
+    .content {
+        &__title {
+            font-size: 50px;
+            &:hover {
+                font-size: 60px;
+            }
+        }
+
+        &__description {
+            font-size: 10px;
+        }
+
+        &__item {
+            .icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            &:hover {
+                .icon {
+                    width: 80px;
+                    height: 80px;
+                }
+                &:active {
+                    .icon {
+                        fill: #808080;
+                    }
+                }
+            }
+
+            &:active {
+                .icon {
+                    fill: #808080;
+                }
+            }
+        }
+    }
+}
