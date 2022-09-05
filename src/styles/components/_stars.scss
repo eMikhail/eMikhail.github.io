@@ -721,7 +721,7 @@ $colorStars: #fff;
         }
     }
 
-    @keyframes animStar {
+    @include keyframes(animStar) {
         from {
             @include transform(translateY(0px));
         }

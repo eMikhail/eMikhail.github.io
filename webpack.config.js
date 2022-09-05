@@ -11,12 +11,13 @@ const srcPath = path.resolve(__dirname, './src');
 const srcFontsPath = path.resolve(srcPath, 'assets/fonts');
 const srcFaviconsPath = path.resolve(srcPath, 'assets/favicons');
 const srcIconsPath = path.resolve(srcPath, 'assets/icons');
-const srcImagesPath = path.resolve(srcPath, 'assets/img/images');
+const srcImagesPath = path.resolve(srcPath, 'assets/images');
 const srcStylesPath = path.resolve(srcPath, 'styles');
 
 const destPath = path.resolve(__dirname, './public');
 const destFaviconsPath = 'assets/img/favicons/[name][ext]';
 const destIconsPath = 'assets/img/icons/[name].[hash][ext]';
+const destImagesPath = 'assets/img/images/[name].[hash][ext]';
 const destFontsPath = 'assets/fonts/[name].[hash][ext]';
 
 module.exports = {
@@ -33,7 +34,7 @@ module.exports = {
     entry: [path.resolve(srcPath, 'index.html'), path.resolve(srcStylesPath, 'main.scss')],
     output: {
             path: destPath,
-            publicPath: 'https://emikhail.github.io/', //'/'
+            publicPath: '/', // 'https://emikhail.github.io/'
         },
     module: {
         rules: [
@@ -50,6 +51,15 @@ module.exports = {
                 test: /\.s[ac]ss$/i,
                 include: srcStylesPath,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
+            },
+            // rules for image files
+            {
+                test: /\.(gif|png|jpe?g|webp)$/i,
+                    include: srcImagesPath,
+                    type: 'asset/resource',
+                    generator: {
+                        filename: destImagesPath,
+                    },
             },
             // rule for favicon files
             {
