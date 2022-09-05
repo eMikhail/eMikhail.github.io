@@ -2,6 +2,10 @@
 
 body {
     background-color: #000;
+
+    a:focus {
+        outline: 1px solid #fff;
+    }
 }
 
 // Main container

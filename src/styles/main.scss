@@ -84,6 +84,10 @@
             }
         }
     }
+
+    &__link {
+        display: block;
+    }
 }
 
 @media (max-width: $mobile) {
