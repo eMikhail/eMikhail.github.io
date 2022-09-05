@@ -34,10 +34,59 @@ module.exports = function (url, options) {
 
 /***/ }),
 
+/***/ 111:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/favicons/apple-touch-icon-precomposed.png";
+
+/***/ }),
+
+/***/ 108:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/favicons/apple-touch-icon.png";
+
+/***/ }),
+
+/***/ 817:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/favicons/favicon-16x16.png";
+
+/***/ }),
+
+/***/ 971:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/favicons/favicon-32x32.png";
+
+/***/ }),
+
+/***/ 960:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/favicons/favicon.ico";
+
+/***/ }),
+
+/***/ 615:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/favicons/safari-pinned-tab.svg";
+
+/***/ }),
+
 /***/ 56:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/img/icons/sprite.b1fe146c463624932217.svg";
+
+/***/ }),
+
+/***/ 920:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/images/avatar.aea6bec1a1c7c1c570b4.png";
 
 /***/ })
 
@@ -102,7 +151,7 @@ module.exports = __webpack_require__.p + "assets/img/icons/sprite.b1fe146c463624
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://emikhail.github.io/";
+/******/ 		__webpack_require__.p = "https://emikhail.github.io";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -139,14 +188,28 @@ var __webpack_exports__ = {};
 /* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(56), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(920), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(108), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(111), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(615), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(971), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(817), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(960), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(56), __webpack_require__.b);
 // Module
-var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___, { hash: "#github" });
-var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___, { hash: "#gitlab" });
-var ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___, { hash: "#telegram" });
-var ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___, { hash: "#email-envelope" });
-var ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___, { hash: "#resume" });
-var code = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <title>eMikhail</title> </head> <body> <div class=\"wrapper\"> <div class=\"container\"> <header class=\"header\"></header> <main class=\"content\"> <div class=\"content__body\"> <a href=\"https://github.com/eMikhail\" class=\"content__title\"><h1>eMikhail</h1></a> <p class=\"content__description\">I am a beginner developer who wants to grow professionally and learn new stuff!</p> <ul class=\"content__list\"> <li class=\"content__item\"> <a href=\"https://github.com/eMikhail\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"https://gitlab.com/egorov_m\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"https://t.me/mikhailegorov_dev\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"mailto:m-5321e@yandex.com\" class=\"content__link\"> <svg class=\"icon icon-email\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"https://emikhail.github.io/resume.pdf\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\"></use> </svg> </a> </li> </ul> </div> </main> <footer class=\"footer\"></footer> </div> </div> </body> </html> ";
+var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
+var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
+var ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);
+var ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);
+var ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);
+var ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);
+var ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);
+var ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___, { hash: "#github" });
+var ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___, { hash: "#gitlab" });
+var ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___, { hash: "#telegram" });
+var ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___, { hash: "#email-envelope" });
+var ___HTML_LOADER_REPLACEMENT_11___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___, { hash: "#resume" });
+var code = "<!DOCTYPE html> <html lang=\"en\"> <head> <title>eMikhail</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,user-scalable=no\"> <meta name=\"description\" content=\"This page has basic information about me and my contacts.\"> <meta name=\"author\" content=\"eMikhail\"> <meta rel=\"base\" href=\"https://emikhail.github.io\"> <meta rel=\"canonical\" href=\"https://emikhail.github.io\"> <meta name=\"robots\" content=\"index/follow\"> <meta itemprop=\"name\" content=\"eMikhail\"> <meta itemprop=\"description\" content=\"This page has basic information about me and my contacts.\"> <meta itemprop=\"image\" content=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"> <meta property=\"og:type\" content=\"profile\"> <meta property=\"og:title\" content=\"eMikhail\"> <meta property=\"og:url\" content=\"https://emikhail.github.io/index.html\"> <meta property=\"og:site_name\" content=\"eMikhail\"> <meta property=\"og:image\" content=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"> <meta property=\"og:description\" content=\"This page has basic information about me and my contacts.\"> <meta name=\"twitter:card\" content=\"This page has basic information about me and my contacts.\"> <meta name=\"twitter:title\" content=\"eMikhail\"> <meta name=\"twitter:description\" content=\"This page has basic information about me and my contacts.\"> <meta name=\"twitter:creator\" content=\"eMikhail\"> <meta name=\"twitter:image\" content=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\"> <link rel=\"apple-touch-icon-precomposed\" sizes=\"180x180\" href=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\"> <link rel=\"mask-icon\" href=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" color=\"#000000\"> <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\"> <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\"> <link rel=\"shortcut icon\" href=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\"> </head> <body> <div class=\"wrapper\"> <div class=\"stars\"> <div class=\"stars-1\"></div> <div class=\"stars-2\"></div> <div class=\"stars-3\"></div> </div> <div class=\"container\"> <header class=\"header\"></header> <main class=\"content\"> <div class=\"content__body\"> <a href=\"https://github.com/eMikhail\" class=\"content__title\"><h1>eMikhail</h1></a> <p class=\"content__description\">I am a beginner developer who wants to grow professionally and learn new stuff!</p> <ul class=\"content__list\"> <li class=\"content__item\"> <a href=\"https://github.com/eMikhail\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"https://gitlab.com/egorov_m\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"https://t.me/mikhailegorov_dev\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"mailto:m-5321e@yandex.com\" class=\"content__link\"> <svg class=\"icon icon-email\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\"></use> </svg> </a> </li> <li class=\"content__item\"> <a href=\"https://emikhail.github.io/resume.pdf\" class=\"content__link\"> <svg class=\"icon\"> <use xlink:href=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\"></use> </svg> </a> </li> </ul> </div> </main> <footer class=\"footer\"></footer> </div> </div> </body> </html> ";
 // Exports
 /* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (code)));
 })();
