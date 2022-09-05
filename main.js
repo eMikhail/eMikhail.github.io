@@ -151,7 +151,7 @@ module.exports = __webpack_require__.p + "assets/img/images/avatar.aea6bec1a1c7c
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://emikhail.github.io";
+/******/ 		__webpack_require__.p = "https://emikhail.github.io/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
